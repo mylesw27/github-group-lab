@@ -1,4 +1,4 @@
-const bios = [
+export const bios = [
     {
         name: "Juan", 
         image_url: "Juan.jpg",
