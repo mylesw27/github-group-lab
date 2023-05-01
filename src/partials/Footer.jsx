@@ -4,8 +4,8 @@ import logo from "../assets/photos/maverickslogo.png"
 
 export default function Footer () {
     return (
-        <footer>
-            <img src={logo} alt="Logo" />
+        <footer class="footer">
+            <img class="Footer-Logo" src={logo} alt="Logo" />
 
             <nav>
                 <Link to="/">Home</Link> {" | "}
