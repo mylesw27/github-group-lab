@@ -1,5 +1,5 @@
 
-export default function Card() {
+export default function Card(props) {
     return (
         <>
             <h2>Card</h2>
