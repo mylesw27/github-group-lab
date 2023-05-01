@@ -9,9 +9,10 @@ import {Link} from 'react-router-dom'
 
 export default function Header(){
     return(
-        <div>
-            Hello, from Anthony! The Nav master.
-        
-        </div>
+        <nav>
+            <li><Link to='/'>Home</Link></li>
+            <li><Link to='/about'>About Us</Link></li>
+            <li><Link to='/'>Contact</Link></li>
+        </nav>
     )
 }
