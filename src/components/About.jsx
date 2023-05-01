@@ -1,5 +1,5 @@
 import Card from "./Card"
-import bios from "../bios"
+import bios from "../bios.js"
 
 export default function About() {
     const cardsMap = bios.map((bio, i) => {
@@ -9,6 +9,7 @@ export default function About() {
             />
         )
     })
+    console.log(bios)
     return (
         <div>
             <h1>About Us</h1>
