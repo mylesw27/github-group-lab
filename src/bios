@@ -1,0 +1,22 @@
+export default bios = [
+    {
+        name: "Juan", 
+        image_url: "",
+        bio: "",
+    },
+    {
+        name: "Dakota", 
+        image_url: "",
+        bio: "",
+    },
+    {
+        name: "Anthony", 
+        image_url: "",
+        bio: "",
+    },
+    {
+        name: "Myles", 
+        image_url: "",
+        bio: "",
+    },
+]
