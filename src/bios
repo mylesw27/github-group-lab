@@ -11,7 +11,7 @@ export default bios = [
     },
     {
         name: "Anthony", 
-        image_url: "Anthony.jpg",
+        image_url: "Anthony.jpg ",
         bio: "",
     },
     {
