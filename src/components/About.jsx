@@ -1,9 +1,12 @@
 import Card from "./Card"
+import bios from "../bios"
 
 export default function About() {
-    const cardsMap = bios.map(() => {
+    const cardsMap = bios.map((bio, i) => {
         return (
-            <Card />
+            <Card
+                bio={bio}
+            />
         )
     })
     return (
