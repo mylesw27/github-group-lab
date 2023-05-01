@@ -20,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/about/:id" element={<Details />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
