@@ -11,9 +11,11 @@ const About = () => {
         <li>Fact 1</li>
         <li>Fact 2</li>
         <li>Fact 3</li>
+        <li>Face 4</li>
       </ul>
     </div>
   );
 };
+
 
 export default About;
